@@ -197,4 +197,40 @@ export const data = {
     linkedin: "https://www.linkedin.com/company/dr-cloud-co-in/8421150803",
     instagram: "https://www.instagram.com/drcloud.ai?igsh=MXRuNmhjYjltcXIyMQ==",
   },
+  testimonials: {
+    student: [
+      {
+        name: " Atharva Gawali",
+        placement: "Johnson Controls Placement",
+        description:
+          "DrCloud's expert training and placement support helped me land a position at Johnson Controls, a global leader in smart building technologies and automation. The hands-on skills, mentorship, and industry connections gave me the confidence to excel at interviews and adapt quickly in my professional role. I amm grateful to the entire Dr Cloud team for turning my career aspirations into reality",
+      },
+      {
+        name: " Rounak",
+        placement: "Talenio Placement",
+        description:
+          "Dr Cloud’s practical cloud and DevOps training made a real difference in my career journey. Thanks to expert guidance and focused placement support, I was placed at Talenio, a fast-growing company redefining employability training and tech solutions. The curriculum, real-world projects, and dedicated team at Dr Cloud gave me the confidence and clarity to succeed professionally. I truly appreciate their commitment to every student’s future",
+      },
+      {
+        name: " Trupti Wankhede",
+        placement: "Johnson Controls Placement",
+        description:
+          "Thanks to Dr Cloud’s comprehensive training and dedicated placement support, I secured my role at Johnson Controls, a global leader in smart building technologies and sustainable solutions. The real-world skills and personalized guidance prepared me well for the professional challenges I face today. Dr Cloud truly transforms learning into career success.",
+      },
+    ],
+    professionals: [
+      {
+        company: "Placement Assurance",
+        designation: "Chairman",
+        description:
+          "Thanks to Dr Cloud’s comprehensive training and dedicated placement support, I secured my role at Johnson Controls, a global leader in smart building technologies and sustainable solutions. The real-world skills and personalized guidance prepared me well for the professional challenges I face today. Dr Cloud truly transforms learning into career success.",
+      },
+      {
+        company: "Career Focus",
+        designation: "CEO",
+        description:
+          "As CEO, my focus is on providing robust placement assistance—resume building, interview prep, and direct access to top hiring partners—so our graduates are job-ready from day one. We believe in transforming skills into careers, supporting each learner until they reach their goals",
+      },
+    ],
+  },
 };

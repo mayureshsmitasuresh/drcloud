@@ -22,11 +22,11 @@ const Navigation = () => {
           {/* Logo */}
           <a href="#home" onClick={() => setIsMenuOpen(false)}>
             <div className="flex items-center">
-              <div className="relative w-36 h-20">
+              <div className="relative w-28 h-20">
                 <Image
                   loading="lazy"
                   src="/assets/logonew.png"
-                  alt="CloudEdu Logo"
+                  alt="DrCloud Logo"
                   fill
                   className="object-contain"
                 />
