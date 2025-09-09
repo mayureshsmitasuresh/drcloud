@@ -151,6 +151,8 @@ export const data = {
   ],
   aboutUs: {
     title: "About Dr. Cloud",
+    tagline:
+      "Empowering professionals with cutting-edge cloud and DevOps skills for the digital future.",
     description1:
       "Dr. Cloud is dedicated to empowering individuals with the skills and knowledge needed to excel in the cloud computing and DevOps landscape. Our mission is to provide high-quality, accessible education that bridges the gap between theory and practice, enabling our students to achieve their career goals.",
     description2:
@@ -174,7 +176,7 @@ export const data = {
           "Building a supportive learning community where students and instructors collaborate and grow together.",
       },
       {
-        icon:Lightbulb,
+        icon: Lightbulb,
         title: "Innovation First",
         description:
           "We stay ahead of industry trends, constantly updating our curriculum with the latest technologies and best practices.",

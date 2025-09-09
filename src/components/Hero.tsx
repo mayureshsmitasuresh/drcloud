@@ -7,7 +7,7 @@ import { motion } from "motion/react";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-hero">
+    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-hero">
       {/* Background Image */}
       <div
         className="absolute inset-0 opacity-20 "
@@ -86,13 +86,15 @@ const Hero = () => {
           <Button variant="accent" size="lg" className="text-lg px-8 py-4">
             {data.heroData.buttonText1}
           </Button>
-          <Button
-            variant="outline-white"
-            size="lg"
-            className="text-lg px-8 py-4"
-          >
-            {data.heroData.buttonText2}
-          </Button>
+          <a href="#courses">
+            <Button
+              variant="outline-white"
+              size="lg"
+              className="text-lg px-8 py-4"
+            >
+              {data.heroData.buttonText2}
+            </Button>
+          </a>
         </motion.div>
 
         {/* Stats */}

@@ -5,16 +5,22 @@ import { motion } from "motion/react";
 
 const Services = () => {
   return (
-    <div className="max-w-6xl mx-auto px-6 my-10">
+    <section id="services" className="max-w-6xl mx-auto py-20 my-10">
       {/* Header */}
       <div className="text-center mb-16">
-        <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
-          Our <span className="text-primary">Certifications</span>
-        </h2>
-        <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-          Comprehensive cloud and DevOps training designed to accelerate your
-          career
-        </p>
+        <motion.h1
+          initial={{ opacity: 0, y: 30, filter: "blur(6px)" }}
+          whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+          transition={{
+            duration: 0.8,
+            delay: 0.2, // stagger
+            ease: "easeInOut",
+          }}
+          viewport={{ once: true, amount: 0.3 }}
+          className="relative inline-block text-4xl md:text-5xl font-bold mb-6 text-foreground"
+        >
+          Our <span className="text-primary relative">Services</span>
+        </motion.h1>
       </div>
 
       {/* Benefits Grid */}
@@ -42,7 +48,7 @@ const Services = () => {
           </motion.div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

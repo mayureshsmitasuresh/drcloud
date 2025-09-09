@@ -7,17 +7,37 @@ import { motion } from "motion/react"; // Motion One
 
 const Courses = () => {
   return (
-    <section id="services" className="py-20 bg-background">
+    <section id="courses" className="py-20 bg-background">
       <div className="max-w-6xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
-            Our <span className="text-primary">Certifications</span>
-          </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <motion.h1
+            initial={{ opacity: 0, y: 30, filter: "blur(6px)" }}
+            whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+            transition={{
+              duration: 0.8,
+              delay: 0.2, // stagger
+              ease: "easeInOut",
+            }}
+            viewport={{ once: true, amount: 0.3 }}
+            className="relative inline-block text-4xl md:text-5xl font-bold mb-6 text-foreground"
+          >
+            Our <span className="text-primary relative">Certifications</span>
+          </motion.h1>
+          <motion.p
+            initial={{ opacity: 0, y: 30, filter: "blur(6px)" }}
+            whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+            transition={{
+              duration: 0.8,
+              delay: 0.3, // stagger
+              ease: "easeInOut",
+            }}
+            viewport={{ once: true, amount: 0.3 }}
+            className="text-xl text-muted-foreground max-w-3xl mx-auto"
+          >
             Comprehensive cloud and DevOps training designed to accelerate your
             career
-          </p>
+          </motion.p>
         </div>
 
         {/* Main Services */}
@@ -30,7 +50,7 @@ const Courses = () => {
               transition={{
                 duration: 0.8,
                 delay: index * 0.2, // stagger
-                ease: "easeOut",
+                ease: "easeInOut",
               }}
               viewport={{ once: true, amount: 0.3 }}
             >

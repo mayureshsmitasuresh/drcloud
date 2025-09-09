@@ -13,18 +13,20 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center gap-2">
-            <div className="relative w-20 h-16 bg-gradient-hero rounded-lg flex items-center justify-center">
-              <Image
-                loading="lazy"
-                src="/assets/logo.jpg" // make sure logo.jpg is in public/assets
-                alt="CloudEdu Logo"
-                fill
-                className="absolute object-cover rounded-lg shadow-lg"
-              />
+          <a href="#home">
+            <div className="flex items-center gap-2">
+              <div className="relative w-20 h-16 bg-gradient-hero rounded-lg flex items-center justify-center">
+                <Image
+                  loading="lazy"
+                  src="/assets/logo.jpg" // make sure logo.jpg is in public/assets
+                  alt="CloudEdu Logo"
+                  fill
+                  className="absolute object-cover rounded-lg shadow-lg"
+                />
+              </div>
+              {/* <span className="text-xl font-bold text-foreground">Dr. Cloud</span> */}
             </div>
-            {/* <span className="text-xl font-bold text-foreground">Dr. Cloud</span> */}
-          </div>
+          </a>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center gap-8">
