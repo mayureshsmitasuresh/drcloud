@@ -18,8 +18,6 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/assets/logo.jpg",
-        width: 800,
-        height: 600,
         alt: "DrCloud Logo",
       },
     ],
