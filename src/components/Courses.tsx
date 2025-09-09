@@ -25,7 +25,7 @@ const Courses = () => {
             viewport={{ once: true, amount: 0.3 }}
             className="relative inline-block text-4xl md:text-5xl font-bold mb-6 text-foreground"
           >
-            Our <span className="text-primary relative">Certifications</span>
+            Our <span className="text-primary relative">Courses</span>
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 30, filter: "blur(6px)" }}

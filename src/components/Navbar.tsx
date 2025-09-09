@@ -22,7 +22,7 @@ const Navigation = () => {
           {/* Logo */}
           <a href="#home" onClick={() => setIsMenuOpen(false)}>
             <div className="flex items-center">
-              <div className="relative w-28 h-20">
+              <div className="relative w-20 h-16">
                 <Image
                   loading="lazy"
                   src="/assets/logonew.png"

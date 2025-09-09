@@ -19,7 +19,7 @@ const About = () => {
             viewport={{ once: true, amount: 0.3 }}
           >
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
-              About <span className="text-primary">Dr. Cloud</span>
+              About <span className="text-primary">DrCloud</span>
             </h2>
             <p className="text-lg text-muted-foreground mb-6">
               {data.aboutUs.description1}
