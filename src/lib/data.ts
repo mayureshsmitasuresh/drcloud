@@ -43,55 +43,83 @@ export const data = {
   courses: [
     {
       id: 1,
-      title: "AWS Certified Solutions Architect - Associate",
+      title: "AWS",
       description:
-        "Learn to design and deploy scalable systems on AWS. Prepare for the AWS Certified Solutions Architect - Associate exam with hands-on labs and real-world scenarios.",
-      keyPoints: ["EC2", "S3", "VPC", "IAM"],
+        "Comprehensive AWS certification courses covering AWS Certified Solutions Architect, DynamoDB, RDS and more. Get hands-on experience with real-world projects.",
+      keyPoints: [
+        "Hands-on Practice Sandbox",
+        "Cloud Practitioner & AI Practitioner",
+        "Expert Training",
+        "Placement Placement Assistance",
+      ],
       link: "#",
       icon: Cloud,
     },
     {
       id: 2,
-      title: "AWS Certified Developer - Associate",
+      title: "Azure",
       description:
-        "Master the skills needed to develop and maintain applications on AWS. This course covers core AWS services, best practices, and exam preparation.",
-      keyPoints: ["Lambda", "DynamoDB", "API Gateway", "Cognito"],
+        "Comprehensive Azure certification courses covering Azure Fundamentals (AZ-900) and Azure Administrator Associate (AZ-104). Get hands-on experience with real-world projects.",
+      keyPoints: [
+        "Hands-on Practice Sandbox",
+        "Azure, Cloud & AI Practitioner",
+        "Expert Training",
+        "Placement Assistance",
+      ],
       link: "#",
       icon: Code,
     },
     {
       id: 3,
-      title: "AWS Certified SysOps Administrator - Associate",
+      title: "Cloud Computing Services (GCP)",
       description:
-        "Gain expertise in deploying, managing, and operating scalable systems on AWS. This course prepares you for the AWS Certified SysOps Administrator - Associate exam.",
-      keyPoints: ["CloudWatch", "CloudFormation", "Auto Scaling", "RDS"],
+        "Gain expertise in deploying, managing, and operating scalable systems on Google Cloud Platform (GCP). This course prepares you for the Google Cloud Certified - Professional Cloud Architect exam.",
+      keyPoints: [
+        "Hands-on Practice Sandbox",
+        "Azure, Cloud & AI Practitioner",
+        "Expert Training",
+        "Placement Assistance",
+      ],
       link: "#",
       icon: Server,
     },
     {
       id: 4,
-      title: "DevOps on AWS",
+      title: "Docker and Kubernetes",
       description:
-        "Learn how to implement DevOps practices using AWS services. This course covers CI/CD pipelines, infrastructure as code, and monitoring on AWS.",
-      keyPoints: ["CodePipeline", "CodeBuild", "CloudFormation", "ECS"],
+        "Comprehensive Docker and Kubernetes certification courses covering Docker Certified Associate (DCA), Certified Kubernetes Administrator (CKA), Certified Kubernetes Application Developer (CKAD), and Certified Kubernetes Security Specialist (CKS). Get hands-on experience with real-world projects.",
+      keyPoints: [
+        "Hands-on Practice Sandbox",
+        "Expert Training",
+        "Placement Assistance",
+      ],
       link: "#",
       icon: GitBranch,
     },
     {
       id: 5,
-      title: "AWS Security Essentials",
+      title: "DevOps Bootcamp",
       description:
-        "Understand AWS security best practices and tools to protect your workloads. Learn IAM policies, KMS, and compliance frameworks.",
-      keyPoints: ["IAM Policies", "KMS", "GuardDuty", "Security Hub"],
+        "Master CI/CD and infrastructure automation. Learn industry best practices from experienced professionals.",
+      keyPoints: [
+        "End-to-End CI/CD Implementation",
+        "Containerization & Orchestration with Docker & Kubernetes",
+        "Placement Assistance",
+      ],
       link: "#",
       icon: Shield,
     },
     {
       id: 6,
-      title: "AWS Automation with Terraform",
+      title: "Infrastructure as Code",
       description:
-        "Automate AWS infrastructure provisioning using Terraform. Learn how to build reusable infrastructure as code modules and manage deployments at scale.",
-      keyPoints: ["Terraform Basics", "Modules", "Workspaces", "IaC Pipelines"],
+        "Infrastructure as Code Learn to manage infrastructure using code with Terraform, CloudFormation, and other modern tools for scalable deployments.",
+      keyPoints: [
+        "Terraform Mastery",
+        "Ansible",
+        "Git Workflows",
+        "Placement assistance",
+      ],
       link: "#",
       icon: Settings,
     },
