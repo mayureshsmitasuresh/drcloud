@@ -37,7 +37,7 @@ const Courses = () => {
               <Card className="p-8 h-[600px] relative bg-gradient-card border-0 shadow-card-hover hover:shadow-float transition-all duration-300 hover:-translate-y-2">
                 {/* Icon */}
                 {service.icon && (
-                  <div className="w-16 h-16 bg-gradient-hero rounded-lg flex items-center justify-center mb-6">
+                  <div className="w-16 h-16 bg-gradient-accent rounded-lg flex items-center justify-center mb-6">
                     <service.icon className="w-8 h-8 text-white" />
                   </div>
                 )}
