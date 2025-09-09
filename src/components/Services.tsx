@@ -5,7 +5,7 @@ import { motion } from "motion/react";
 
 const Services = () => {
   return (
-    <section id="services" className="max-w-6xl mx-auto py-20 my-10">
+    <section id="services" className="max-w-6xl mx-auto py-20 ">
       {/* Header */}
       <div className="text-center mb-16">
         <motion.h1

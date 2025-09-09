@@ -41,7 +41,7 @@ const Courses = () => {
         </div>
 
         {/* Main Services */}
-        <div className="grid md:grid-cols-3 gap-8 mb-20">
+        <div className="grid md:grid-cols-3 gap-8 ">
           {data.courses.map((service, index) => (
             <motion.div
               key={index}
