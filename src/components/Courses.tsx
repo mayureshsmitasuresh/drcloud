@@ -57,7 +57,7 @@ const Courses = () => {
               }}
               viewport={{ once: true, amount: 0.3 }}
             >
-              <Card className="p-8 h-[600px] relative bg-gradient-card border-0 shadow-card-hover hover:shadow-float transition-all duration-300 hover:-translate-y-2">
+              <Card className="p-8 h-[550px] relative bg-gradient-card border-0 shadow-card-hover hover:shadow-float transition-all duration-300 hover:-translate-y-2">
                 {/* Icon */}
                 {service.icon && (
                   <div className="w-16 h-16 bg-gradient-accent rounded-lg flex items-center justify-center ">
@@ -69,11 +69,11 @@ const Courses = () => {
                   {service.title}
                 </h3>
                 {/* Description */}
-                <p className="text-muted-foreground  absolute top-56">
+                <p className="text-muted-foreground  ">
                   {service.description}
                 </p>
                 {/* Key Points */}
-                <ul className="space-y-2 mb-6 absolute bottom-20">
+                <ul className="space-y-2 mb-6 ">
                   {service.keyPoints.map((feature, idx) => (
                     <li key={idx} className="flex items-center gap-2">
                       <div className="w-2 h-2 bg-primary rounded-full" />

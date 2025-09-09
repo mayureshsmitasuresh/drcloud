@@ -24,7 +24,7 @@ const Services = () => {
       </div>
 
       {/* Benefits Grid */}
-      <div className={`grid grid-cols-3 gap-8 justify-center items-center `}>
+      <div className={`grid md:grid-cols-3 gap-8 justify-center items-center `}>
         {data.benefits.map((benefit, index) => (
           <motion.div
             key={index}

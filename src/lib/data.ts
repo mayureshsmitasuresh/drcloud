@@ -12,6 +12,7 @@ import {
   Users,
   Zap,
 } from "lucide-react";
+import { BsPeople } from "react-icons/bs";
 
 export const data = {
   heroData: {
@@ -87,7 +88,7 @@ export const data = {
       id: 4,
       title: "Docker and Kubernetes",
       description:
-        "Comprehensive Docker and Kubernetes certification courses covering Docker Certified Associate (DCA), Certified Kubernetes Administrator (CKA), Certified Kubernetes Application Developer (CKAD), and Certified Kubernetes Security Specialist (CKS). Get hands-on experience with real-world projects.",
+        "Master CI/CD and infrastructure automation. Learn industry best practices from experienced professionals. Work on real-world projects that mirror industry challenges.Receive personalized career guidance and placement assistance.",
       keyPoints: [
         "Hands-on Practice Sandbox",
         "Expert Training",
@@ -175,6 +176,12 @@ export const data = {
       title: "One to One Membership",
       description:
         "Learn from industry professionals with years of real-world experience in cloud and DevOps.",
+    },
+    {
+      icon: BsPeople,
+      title: "Community & Networking",
+      description:
+        "Join a vibrant community of learners and professionals to collaborate, share knowledge, and grow your career network.",
     },
   ],
   aboutUs: {
