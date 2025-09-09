@@ -42,7 +42,7 @@ const About = () => {
                   viewport={{ once: true, amount: 0.4 }}
                   className="flex items-center gap-3"
                 >
-                  <div className="w-2 h-2 bg-cloud-success rounded-full" />
+                  <div className="w-2 h-2 bg-cloud-primary rounded-full" />
                   <span className="text-foreground font-medium">{point}</span>
                 </motion.div>
               ))}
@@ -68,10 +68,10 @@ const About = () => {
                 viewport={{ once: true, amount: 0.3 }}
               >
                 <Card className="p-6 bg-card border-0 shadow-card-hover hover:shadow-float transition-all duration-300 hover:-translate-y-2">
-                  <div className="w-12 h-12 bg-gradient-accent rounded-lg flex items-center justify-center mb-4">
+                  <div className="w-12 h-12 bg-gradient-accent rounded-lg flex items-center justify-center ">
                     <value.icon className="w-6 h-6 text-white" />
                   </div>
-                  <h3 className="text-lg font-semibold mb-3 text-foreground">
+                  <h3 className="text-lg font-semibold  text-foreground">
                     {value.title}
                   </h3>
                   <p className="text-muted-foreground text-sm">

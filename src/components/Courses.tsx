@@ -4,8 +4,11 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { data } from "@/lib/data";
 import { motion } from "motion/react"; // Motion One
+import { useState } from "react";
+import CourseForm from "./ui/courseForm";
 
 const Courses = () => {
+  const [selectedCourse, setSelectedCourse] = useState<string | null>(null);
   return (
     <section id="courses" className="py-20 bg-background">
       <div className="max-w-6xl mx-auto px-6">
@@ -57,16 +60,16 @@ const Courses = () => {
               <Card className="p-8 h-[600px] relative bg-gradient-card border-0 shadow-card-hover hover:shadow-float transition-all duration-300 hover:-translate-y-2">
                 {/* Icon */}
                 {service.icon && (
-                  <div className="w-16 h-16 bg-gradient-accent rounded-lg flex items-center justify-center mb-6">
+                  <div className="w-16 h-16 bg-gradient-accent rounded-lg flex items-center justify-center ">
                     <service.icon className="w-8 h-8 text-white" />
                   </div>
                 )}
                 {/* Title */}
-                <h3 className="text-2xl font-bold mb-4 text-foreground">
+                <h3 className="text-2xl font-bold  text-foreground">
                   {service.title}
                 </h3>
                 {/* Description */}
-                <p className="text-muted-foreground mt-4 mb-6 absolute top-56">
+                <p className="text-muted-foreground  absolute top-56">
                   {service.description}
                 </p>
                 {/* Key Points */}
@@ -80,6 +83,7 @@ const Courses = () => {
                 </ul>
                 {/* Button */}
                 <Button
+                  onClick={() => setSelectedCourse(service.title)}
                   variant="cloud"
                   className="w-[80%] absolute bottom-5 mx-auto left-0 right-0"
                 >
@@ -90,6 +94,12 @@ const Courses = () => {
           ))}
         </div>
       </div>
+      {selectedCourse && (
+        <CourseForm
+          course={selectedCourse}
+          onClose={() => setSelectedCourse(null)}
+        />
+      )}
     </section>
   );
 };

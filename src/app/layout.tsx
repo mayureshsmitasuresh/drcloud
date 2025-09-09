@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Dr. Cloud",
+  title: "DrCloud",
   description: "Your Path to Cloud Mastery",
 };
 

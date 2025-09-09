@@ -150,17 +150,16 @@ export const data = {
     },
   ],
   aboutUs: {
-    title: "About Dr. Cloud",
+    title: "About DrCloud",
     tagline:
       "Empowering professionals with cutting-edge cloud and DevOps skills for the digital future.",
     description1:
-      "Dr. Cloud is dedicated to empowering individuals with the skills and knowledge needed to excel in the cloud computing and DevOps landscape. Our mission is to provide high-quality, accessible education that bridges the gap between theory and practice, enabling our students to achieve their career goals.",
+      "DrCloud is dedicated to empowering individuals with the skills and knowledge needed to excel in the cloud computing and DevOps landscape. Our mission is to provide high-quality, accessible education that bridges the gap between theory and practice, enabling our students to achieve their career goals.",
     description2:
       "With a team of experienced instructors and industry professionals, we offer a range of courses that cover essential AWS services and DevOps practices. Our hands-on approach ensures that learners not only understand the concepts but also gain practical experience through real-world scenarios and labs.",
     keyPoints: [
       "AWS Advanced Consulting Partner",
       "Kubernetes Certified Service Provider",
-      "ISO 27001 Certified Training",
     ],
     missions: [
       {
@@ -190,16 +189,12 @@ export const data = {
     ],
   },
   contactInfo: {
-    email: "info@drcloud.com",
+    email: "support@drcloud.co.in",
     phone: "+91-800-123-4567",
     address: "123 Cloud St, Sangli City, MH 416416",
   },
   socials: {
-    linkedin: "https://www.linkedin.com/in/dr-cloud",
-    twitter: "https://twitter.com/dr_cloud",
-    facebook: "https://www.facebook.com/drcloud",
-    instagram: "https://www.instagram.com/dr_cloud",
-    youtube: "https://www.youtube.com/drcloud",
+    linkedin: "https://www.linkedin.com/company/dr-cloud-co-in/8421150803",
+    instagram: "https://www.instagram.com/drcloud.ai?igsh=MXRuNmhjYjltcXIyMQ==",
   },
-  
 };

@@ -4,26 +4,21 @@ import Image from "next/image";
 import { Mail, Phone, MapPin } from "lucide-react";
 import { motion } from "motion/react";
 import { data } from "@/lib/data";
+import { BsInstagram, BsLinkedin } from "react-icons/bs";
 
 const Footer = () => {
   const socials = [
     {
       name: "linkedin",
       url: data.socials.linkedin,
-      icon: "/icons/linkedin.svg",
+      icon: BsLinkedin,
     },
-    { name: "twitter", url: data.socials.twitter, icon: "/icons/twitter.svg" },
-    {
-      name: "facebook",
-      url: data.socials.facebook,
-      icon: "/icons/facebook.svg",
-    },
+
     {
       name: "instagram",
       url: data.socials.instagram,
-      icon: "/icons/instagram.svg",
+      icon: BsInstagram,
     },
-    { name: "youtube", url: data.socials.youtube, icon: "/icons/youtube.svg" },
   ];
 
   return (
@@ -38,15 +33,15 @@ const Footer = () => {
             viewport={{ once: true, amount: 0.3 }}
           >
             <div className="flex items-center gap-3 mb-6">
-              <div className="relative w-10 h-10 rounded-lg overflow-hidden">
+              <div className="relative w-44 h-44 rounded-lg overflow-hidden">
                 <Image
+                  loading="lazy"
                   src="/assets/logo.jpg"
                   alt="CloudEdu Logo"
                   fill
                   className="object-cover"
                 />
               </div>
-              <span className="text-xl font-bold">Dr. Cloud</span>
             </div>
 
             <p className="text-white/80 mb-6 max-w-md">
@@ -68,12 +63,7 @@ const Footer = () => {
                       transition={{ duration: 0.4, delay: idx * 0.1 }}
                       viewport={{ once: true }}
                     >
-                      <Image
-                        src={social.icon}
-                        alt={social.name}
-                        width={20}
-                        height={20}
-                      />
+                     <social.icon className="w-8 h-8 text-white cursor-pointer" />
                     </motion.a>
                   )
               )}
@@ -133,7 +123,7 @@ const Footer = () => {
           viewport={{ once: true }}
         >
           <p className="text-white/60 text-sm">
-            © {new Date().getFullYear()} Dr. Cloud | All rights reserved 2025
+            © {new Date().getFullYear()} DrCloud | All rights reserved 2025
           </p>
           {/* <div className="flex gap-6 text-sm text-white/60 mt-4 md:mt-0">
             <a href="#" className="hover:text-white transition-colors">
