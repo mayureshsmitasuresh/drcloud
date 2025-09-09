@@ -3,9 +3,12 @@ import {
   Cloud,
   Code,
   GitBranch,
+  Lightbulb,
   Server,
   Settings,
   Shield,
+  Target,
+  TrendingUp,
   Users,
   Zap,
 } from "lucide-react";
@@ -133,39 +136,51 @@ export const data = {
       description:
         "Practice with real cloud environments and build projects you can showcase to employers.",
     },
+    {
+      icon: Zap,
+      title: "Placement Support",
+      description:
+        "Learn from industry professionals with years of real-world experience in cloud and DevOps.",
+    },
+    {
+      icon: Zap,
+      title: "One to One Membership",
+      description:
+        "Learn from industry professionals with years of real-world experience in cloud and DevOps.",
+    },
   ],
   aboutUs: {
     title: "About Dr. Cloud",
     description1:
       "Dr. Cloud is dedicated to empowering individuals with the skills and knowledge needed to excel in the cloud computing and DevOps landscape. Our mission is to provide high-quality, accessible education that bridges the gap between theory and practice, enabling our students to achieve their career goals.",
-    desciption2:
+    description2:
       "With a team of experienced instructors and industry professionals, we offer a range of courses that cover essential AWS services and DevOps practices. Our hands-on approach ensures that learners not only understand the concepts but also gain practical experience through real-world scenarios and labs.",
     keyPoints: [
       "AWS Advanced Consulting Partner",
       "Kubernetes Certified Service Provider",
       "ISO 27001 Certified Training",
     ],
-    features: [
+    missions: [
       {
-        icon: "🌐",
+        icon: Target,
         title: "Mission-Driven",
         description:
           "We're committed to bridging the skills gap in cloud computing and helping professionals excel in the digital transformation era.",
       },
       {
-        icon: "🌐",
+        icon: Users,
         title: "Community Focus",
         description:
           "Building a supportive learning community where students and instructors collaborate and grow together.",
       },
       {
-        icon: "🌐",
+        icon:Lightbulb,
         title: "Innovation First",
         description:
           "We stay ahead of industry trends, constantly updating our curriculum with the latest technologies and best practices.",
       },
       {
-        icon: "🌐",
+        icon: TrendingUp,
         title: "Career Growth",
         description:
           "Our programs are designed to accelerate career advancement with practical skills that employers value.",
