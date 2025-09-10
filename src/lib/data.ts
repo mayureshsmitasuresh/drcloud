@@ -227,7 +227,7 @@ export const data = {
   contactInfo: {
     email: "support@drcloud.co.in",
     phone: "+91-842-115-0803",
-    address: "123 Cloud St, Sangli City, MH 416416",
+    address: "S. B. Patil Road, Ravet, Pune, MH 411044",
   },
   socials: {
     linkedin: "https://www.linkedin.com/company/dr-cloud-co-in/8421150803",
