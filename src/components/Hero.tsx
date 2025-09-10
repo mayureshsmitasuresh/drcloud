@@ -25,7 +25,7 @@ const Hero = () => {
           animate={{ opacity: 1, filter: "blur(0px)" }}
           transition={{ duration: 1, delay: 0.2 }}
         >
-          <Cloud className="absolute top-20 left-20 w-8 h-8 text-white/30 animate-float" />
+          <Cloud className="absolute top-32 left-20 w-8 h-8 text-white/30 animate-float" />
         </motion.div>
 
         <motion.div
@@ -41,7 +41,7 @@ const Hero = () => {
           animate={{ opacity: 1, filter: "blur(0px)" }}
           transition={{ duration: 1, delay: 0.6 }}
         >
-          <Code className="absolute bottom-40 left-32 w-7 h-7 text-white/35 animate-float" />
+          <Code className="absolute top-96 left-32 w-7 h-7 text-white/35 animate-float" />
         </motion.div>
 
         <motion.div
@@ -49,12 +49,12 @@ const Hero = () => {
           animate={{ opacity: 1, filter: "blur(0px)" }}
           transition={{ duration: 1, delay: 0.8 }}
         >
-          <Award className="absolute bottom-20 right-20 w-6 h-6 text-white/30 animate-float" />
+          <Award className="absolute top-80 right-20 w-6 h-6 text-white/30 animate-float" />
         </motion.div>
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-6xl mx-auto px-6 text-center text-white">
+      <div className="relative pt-24 z-10 max-w-6xl mx-auto px-6 text-center text-white">
         {/* Title */}
         <motion.h1
           initial={{ opacity: 0, y: 20, filter: "blur(8px)" }}

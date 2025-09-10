@@ -21,14 +21,14 @@ const Navigation = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <a href="#home" onClick={() => setIsMenuOpen(false)}>
-            <div className="flex items-center">
-              <div className="relative w-20 h-16">
+            <div className="flex items-center p-1">
+              <div className="relative w-32 h-12 md:w-32 md:h-14 ">
                 <Image
                   loading="lazy"
-                  src="/assets/logonew.png"
+                  src="/assets/navlogo.png"
                   alt="DrCloud Logo"
                   fill
-                  className="object-contain"
+                  className="object-fill"
                 />
               </div>
             </div>
