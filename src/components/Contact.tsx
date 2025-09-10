@@ -23,8 +23,16 @@ const Contact = () => {
       icon: <Mail className="w-6 h-6 text-white" />,
       title: "Email Us",
       value: (
-        <a href={`mailto:${data.contactInfo.email}`}>
-          {data.contactInfo.email}
+        <a href={`mailto:${data.contactInfo.email}`} className="flex items-start gap-4">
+          <div className="w-12 h-12 bg-gradient-hero rounded-lg flex items-center justify-center flex-shrink-0">
+            <Mail className="w-6 h-6 text-white" />
+          </div>
+          <div>
+            <h4 className="font-semibold text-foreground mb-1">Email Us</h4>
+            <div className="text-muted-foreground">
+              {data.contactInfo.email}
+            </div>
+          </div>
         </a>
       ),
     },
@@ -32,7 +40,17 @@ const Contact = () => {
       icon: <Phone className="w-6 h-6 text-white" />,
       title: "Call Us",
       value: (
-        <a href={`tel:${data.contactInfo.phone}`}>{data.contactInfo.phone}</a>
+        <a href={`tel:${data.contactInfo.phone}`} className="flex items-start gap-4">
+            <div className="w-12 h-12 bg-gradient-hero rounded-lg flex items-center justify-center flex-shrink-0">
+            <Mail className="w-6 h-6 text-white" />
+          </div>
+          <div>
+            <h4 className="font-semibold text-foreground mb-1">Call Us</h4>
+            <div className="text-muted-foreground">
+              {data.contactInfo.phone}
+            </div>
+          </div>
+        </a>
       ),
     },
     {
@@ -44,9 +62,17 @@ const Contact = () => {
             data.contactInfo.address
           )}`}
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noopener noreferrer" className="flex items-start gap-4"
         >
-          {data.contactInfo.address}
+          <div className="w-12 h-12 bg-gradient-hero rounded-lg flex items-center justify-center flex-shrink-0">
+            <Mail className="w-6 h-6 text-white" />
+          </div>
+          <div>
+            <h4 className="font-semibold text-foreground mb-1">Visit Us</h4>
+            <div className="text-muted-foreground">
+              {data.contactInfo.address}
+            </div>
+          </div>
         </a>
       ),
     },
@@ -280,13 +306,13 @@ const Contact = () => {
                   variants={fadeInUp}
                   className="flex items-start gap-4"
                 >
-                  <div className="w-12 h-12 bg-gradient-hero rounded-lg flex items-center justify-center flex-shrink-0">
+                  {/* <div className="w-12 h-12 bg-gradient-hero rounded-lg flex items-center justify-center flex-shrink-0">
                     {item.icon}
-                  </div>
+                  </div> */}
                   <div>
-                    <h4 className="font-semibold text-foreground mb-1">
+                    {/* <h4 className="font-semibold text-foreground mb-1">
                       {item.title}
-                    </h4>
+                    </h4> */}
                     <div className="text-muted-foreground">{item.value}</div>
                   </div>
                 </motion.div>

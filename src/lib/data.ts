@@ -226,7 +226,7 @@ export const data = {
   },
   contactInfo: {
     email: "support@drcloud.co.in",
-    phone: "+91-800-123-4567",
+    phone: "+91-842-115-0803",
     address: "123 Cloud St, Sangli City, MH 416416",
   },
   socials: {
