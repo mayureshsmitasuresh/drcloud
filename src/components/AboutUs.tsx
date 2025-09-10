@@ -15,7 +15,7 @@ const About = () => {
           <motion.div
             initial={{ opacity: 0, y: 40, filter: "blur(6px)" }}
             whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
+            transition={{ duration: 0.8, ease: "easeInOut" }}
             viewport={{ once: true, amount: 0.3 }}
           >
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
@@ -37,7 +37,7 @@ const About = () => {
                   transition={{
                     duration: 0.5,
                     delay: index * 0.15,
-                    ease: "easeOut",
+                    ease: "easeInOut",
                   }}
                   viewport={{ once: true, amount: 0.4 }}
                   className="flex items-center gap-3"
@@ -63,7 +63,7 @@ const About = () => {
                 transition={{
                   duration: 0.6,
                   delay: index * 0.2,
-                  ease: "easeOut",
+                  ease: "easeInOut",
                 }}
                 viewport={{ once: true, amount: 0.3 }}
               >

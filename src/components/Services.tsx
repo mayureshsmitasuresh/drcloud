@@ -24,16 +24,16 @@ const Services = () => {
       </div>
 
       {/* Benefits Grid */}
-      <div className={`grid md:grid-cols-3 gap-8 justify-center items-center `}>
+      <div className={`grid md:grid-cols-3 gap-8  `}>
         {data.benefits.map((benefit, index) => (
           <motion.div
             key={index}
             initial={{ opacity: 0, y: 30, filter: "blur(6px)" }}
             whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
             transition={{
-              duration: 0.6,
-              ease: "easeOut",
-              delay: index * 0.2,
+              duration: 0.8,
+              delay: index * 0.2, // stagger
+              ease: "easeInOut",
             }}
             viewport={{ once: true, amount: 0.3 }}
             className="text-center p-6 rounded-xl shadow-card-hover hover:shadow-float transition-all duration-300 hover:-translate-y-2"
