@@ -170,13 +170,13 @@ export const data = {
       icon: MdSupportAgent,
       title: "Placement Support",
       description:
-        "Learn from industry professionals with years of real-world experience in cloud and DevOps.",
+        "We support even after you complete your course to accelerate your career.",
     },
     {
       icon: MdCardMembership,
-      title: "One to One Membership",
+      title: "One to One Mentorship",
       description:
-        "Learn from industry professionals with years of real-world experience in cloud and DevOps.",
+        "Personalised mentorship for your chosen course, get deep insights on your confusions by industry experts.",
     },
     {
       icon: BsPeople,
