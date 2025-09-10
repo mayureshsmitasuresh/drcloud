@@ -137,7 +137,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-20 bg-background">
+    <section id="contact" className="py-16 bg-background">
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
         <motion.div

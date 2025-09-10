@@ -10,10 +10,10 @@ import CourseForm from "./ui/courseForm";
 const Courses = () => {
   const [selectedCourse, setSelectedCourse] = useState<string | null>(null);
   return (
-    <section id="courses" className="py-20 bg-background">
+    <section id="courses" className="py-16 ">
       <div className="max-w-6xl mx-auto px-6">
         {/* Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <motion.h1
             initial={{ opacity: 0, y: 30, filter: "blur(6px)" }}
             whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}

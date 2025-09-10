@@ -5,7 +5,7 @@ import { motion } from "motion/react";
 
 const Services = () => {
   return (
-    <section id="services" className="max-w-6xl mx-auto py-20 ">
+    <section id="services" className="max-w-6xl mx-auto py-16 ">
       {/* Header */}
       <div className="text-center mb-16">
         <motion.h1
@@ -17,7 +17,7 @@ const Services = () => {
             ease: "easeInOut",
           }}
           viewport={{ once: true, amount: 0.3 }}
-          className="relative inline-block text-4xl md:text-5xl font-bold mb-6 text-foreground"
+          className="relative inline-block text-4xl md:text-5xl font-bold  text-foreground"
         >
           Our <span className="text-primary relative">Services</span>
         </motion.h1>
