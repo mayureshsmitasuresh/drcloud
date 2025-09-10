@@ -259,7 +259,7 @@ export const data = {
         company: "Placement Assurance",
         designation: "Chairman",
         description:
-          "Thanks to Dr Cloud’s comprehensive training and dedicated placement support, I secured my role at Johnson Controls, a global leader in smart building technologies and sustainable solutions. The real-world skills and personalized guidance prepared me well for the professional challenges I face today. Dr Cloud truly transforms learning into career success.",
+          "As Chairman, I ensure Dr Cloud’s commitment to outstanding placement support, helping every student build a successful tech career. Our board is dedicated to expanding corporate links and ensuring quality job opportunities as a top priority",
       },
       {
         company: "Career Focus",
