@@ -13,6 +13,7 @@ import {
   Zap,
 } from "lucide-react";
 import { BsPeople } from "react-icons/bs";
+import { MdCardMembership, MdSupportAgent } from "react-icons/md";
 
 export const data = {
   heroData: {
@@ -166,13 +167,13 @@ export const data = {
         "Practice with real cloud environments and build projects you can showcase to employers.",
     },
     {
-      icon: Zap,
+      icon: MdSupportAgent,
       title: "Placement Support",
       description:
         "Learn from industry professionals with years of real-world experience in cloud and DevOps.",
     },
     {
-      icon: Zap,
+      icon: MdCardMembership,
       title: "One to One Membership",
       description:
         "Learn from industry professionals with years of real-world experience in cloud and DevOps.",

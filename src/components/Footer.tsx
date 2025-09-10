@@ -24,7 +24,7 @@ const Footer = () => {
   return (
     <footer className="bg-foreground text-white">
       <div className="max-w-7xl mx-auto px-6 py-16">
-        <div className="grid md:grid-cols-2 gap-12">
+        <div className="flex flex-col md:flex-row justify-between items-start  gap-12">
           {/* Brand + Socials */}
           <motion.div
             initial={{ opacity: 0, y: 40, filter: "blur(6px)" }}
@@ -63,10 +63,32 @@ const Footer = () => {
                       transition={{ duration: 0.4, delay: idx * 0.1 }}
                       viewport={{ once: true }}
                     >
-                     <social.icon className="w-8 h-8 text-white cursor-pointer" />
+                      <social.icon className="w-8 h-8 text-white cursor-pointer" />
                     </motion.a>
                   )
               )}
+            </div>
+          </motion.div>
+
+          {/* Courses Info */}
+          <motion.div
+            initial={{ opacity: 0, y: 40, filter: "blur(6px)" }}
+            whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+            transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+            viewport={{ once: true, amount: 0.3 }}
+          >
+            <h3 className="text-lg font-semibold mb-4">Our Courses</h3>
+            <div className="space-y-3 text-white/80">
+              {data.courses.map((course, index) => (
+                <div
+                  key={index}
+                  className="flex items-center gap-3 cursor-pointer"
+                >
+                  <h3 className="hover:text-white transition-colors ">
+                    {course.title}
+                  </h3>
+                </div>
+              ))}
             </div>
           </motion.div>
 
