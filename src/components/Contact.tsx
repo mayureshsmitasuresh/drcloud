@@ -42,7 +42,7 @@ const Contact = () => {
       value: (
         <a href={`tel:${data.contactInfo.phone}`} className="flex items-start gap-4">
             <div className="w-12 h-12 bg-gradient-hero rounded-lg flex items-center justify-center flex-shrink-0">
-            <Mail className="w-6 h-6 text-white" />
+            <Phone className="w-6 h-6 text-white" />
           </div>
           <div>
             <h4 className="font-semibold text-foreground mb-1">Call Us</h4>
@@ -65,7 +65,7 @@ const Contact = () => {
           rel="noopener noreferrer" className="flex items-start gap-4"
         >
           <div className="w-12 h-12 bg-gradient-hero rounded-lg flex items-center justify-center flex-shrink-0">
-            <Mail className="w-6 h-6 text-white" />
+            <MapPin className="w-6 h-6 text-white" />
           </div>
           <div>
             <h4 className="font-semibold text-foreground mb-1">Visit Us</h4>
