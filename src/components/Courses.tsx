@@ -10,7 +10,7 @@ import CourseForm from "./ui/courseForm";
 const Courses = () => {
   const [selectedCourse, setSelectedCourse] = useState<string | null>(null);
   return (
-    <section id="courses" className="py-16 ">
+    <section id="courses" className="pt-16 ">
       <div className="max-w-6xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-12">

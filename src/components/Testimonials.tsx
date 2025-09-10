@@ -7,7 +7,7 @@ import { Quote } from "lucide-react";
 
 const Testimonials = () => {
   return (
-    <section id="testimonials" className="py-16">
+    <section id="testimonials" className="pt-16">
       <div className="max-w-6xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-16">
