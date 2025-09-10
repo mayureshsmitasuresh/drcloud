@@ -44,7 +44,7 @@ const Courses = () => {
         </div>
 
         {/* Main Services */}
-        <div className="grid md:grid-cols-3 gap-8 ">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 ">
           {data.courses.map((service, index) => (
             <motion.div
               key={index}
@@ -57,7 +57,7 @@ const Courses = () => {
               }}
               viewport={{ once: true, amount: 0.3 }}
             >
-              <Card className="p-8 h-[550px] relative bg-gradient-card border-0 shadow-card-hover hover:shadow-float transition-all duration-300 hover:-translate-y-2">
+              <Card className="p-8 min-h-[550px] relative bg-gradient-card border-0 shadow-card-hover hover:shadow-float transition-all duration-300 hover:-translate-y-2">
                 {/* Icon */}
                 {service.icon && (
                   <div className="w-16 h-16 bg-gradient-accent rounded-lg flex items-center justify-center ">
